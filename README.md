@@ -19,14 +19,14 @@ Car dealerships manage many vehicles with different specifications. Without a st
 
 - Inventory tracking for cars and trucks
 - Search by make, model, or color
-- Vehicle-specific attributes for each type
-- Menu-driven console interface for daily use
+- Vehicle-specific attributes for each class
+- Polymorphic storage using vector<Vehicle*> and raw pointer memory management
 
 ## Technical Stack
 
 - Language: C++
 - Programming Paradigm: Object-oriented programming
-- Core Concepts: inheritance, polymorphism, vectors, memory management
+- Core Concepts: inheritance, polymorphism, vectors, raw pointers
 - Design Approach: modular class hierarchy and dynamic dispatch
 
 ## Application Design
@@ -34,7 +34,7 @@ Car dealerships manage many vehicles with different specifications. Without a st
 - Vehicle: shared base class for common attributes
 - Car: subclass with car-specific data and methods
 - Truck: subclass with truck-specific data and methods
-- Inventory Manager: stores and manages vehicle objects in one collection
+- Inventory Manager: stores derived objects in vector<Vehicle*> for runtime polymorphic behavior
 
 This structure keeps the code reusable and makes it easier to add new vehicle types later.
 
