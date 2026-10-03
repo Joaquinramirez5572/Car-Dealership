@@ -93,7 +93,3 @@ Car-Dealership/
 The full design document for this project is available in the repository:
 
 [Ramirez, Joaquin - Software Design Document Car Dealership Inventory](./Ramirez%20Joaquin%20-%20Software%20Design%20Document%20Car%20Dealership%20Inventory.pdf)
-
-## Final Notes
-
-Car Dealership Inventory Management System demonstrates solid software engineering practices including inheritance hierarchies, runtime polymorphism, dynamic memory management, and clean menu-driven architecture. It is a practical portfolio project showcasing experience with object-oriented design patterns and business logic implementation in C++.
