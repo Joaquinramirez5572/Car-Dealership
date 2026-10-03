@@ -13,7 +13,7 @@ This project demonstrates object-oriented programming through inheritance, polym
 
 ## Why This Project Matters
 
-Car dealerships manage many vehicles with different specifications. Without a structured system, tracking inventory and finding specific cars becomes difficult and time-consuming. This application gives staff an organized way to manage and review vehicle information efficiently.
+Car dealerships manage many vehicles with different specifications. Without a structured system, tracking inventory and finding specific cars becomes difficult and time-consuming. This application simulates a way for staff to manage and review vehicle information efficiently.
 
 ## Features
 
