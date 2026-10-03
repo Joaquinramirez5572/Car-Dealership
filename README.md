@@ -46,7 +46,7 @@ The application uses a three-tier class hierarchy with polymorphic behavior:
 - Car (Derived Class): Extends Vehicle to represent automobiles. Adds car-specific attributes: spare tire in trunk and rear windshield wiper support. Overrides printDetails() to display car-specific information.
 - Truck (Derived Class): Extends Vehicle to represent trucks. Adds truck-specific attributes: side panel storage and auto-release tailgate. Overrides printDetails() to display truck-specific information.
 - Inventory Management: Uses a vector of Vehicle pointers to store heterogeneous vehicle objects, enabling runtime polymorphism through dynamic dispatch.
-- Menu System: Four main operations—add vehicle, display inventory, search, and view details—implemented with pass-by-reference parameter passing for efficiency.
+- Menu System: Four main operations, add vehicle, display inventory, search, and view details, implemented with pass-by-reference parameter passing for efficiency.
 
 This structure demonstrates proper separation of concerns, code reusability through inheritance, and extensibility for future vehicle types.
 
